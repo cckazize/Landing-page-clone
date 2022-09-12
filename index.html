@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="global.css" />
+    <title>Landing Page</title>
+    <!-- Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-dark-blue">
+      <div class="container">
+        <nav id="navbar">
+          <h1 class="heading-small">Mustafa Murat Coşkun</h1>
+
+          <ul>
+            <li><a href="#Anasayfa">Anasayfa</a></li>
+            <li><a href="#Hakkımızda">Hakkımızda</a></li>
+            <li><a href="#Kurslar">Kurslar</a></li>
+            <li><a href="#İletişim">İletişim</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="home">
+      <img src="img/mustafamuratcoskun-300x300.jpg" alt="image" />
+
+      <div class="name text-center">
+        <h2 class="heading-big">Mustafa Murat Coşkun</h2>
+        <p>Computer Engineer | Founder of Yazılım Bilimi</p>
+      </div>
+      <a href="#courses" class="btn btn-primary">Kurslara Git</a>
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+      <h3 class="text-center heading-medium">Eğitimler</h3>
+      <div class="items">
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Necessitatibus, nulla.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Necessitatibus, nulla.
+          </p>
+        </article>
+        <article class="item">
+          <i class="fa fa-pencil-alt"></i>
+          <h3>Sınıf İçi Eğitimler</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Necessitatibus, nulla.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section id="courses">
+      <h3 class="text-center heading-big">Kurslar</h3>
+      <div class="container">
+        <div class="courses">
+           <!-- course-1 -->
+            <div class="course">
+            <div class="course-image">
+              <img src="img/python.jpg" alt="Python" />
+              <span>%90 İndirim</span>
+            </div>
+          
+          <div class="course-info">
+            <div class="title">
+              (40)+saat Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+            <div class="description">
+              (40)+saat Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+
+            <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+            <div class="rating">4.6 | (19990 Oylama)</div>
+          </div>
+        </div>
+        </div>
+         <div class="courses">
+          <div class="course">
+            <div class="course-image">
+              <img src="img/java.jpg" alt="Python" />
+              <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                (40+ Saat) Java | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="description">
+                (40+ Saat) Java | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+              <div class="rating">4.6 | (2000 Oylama)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="courses">
+          <div class="course">
+            <div class="course-image">
+              <img src="img/javascript.jpg" alt="Python" />
+              <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+              <div class="title">
+                (40+ Saat) Javascript | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="description">
+                (40+ Saat) Javascript | Sıfırdan İleri Seviye Programlama (2020)
+              </div>
+              <div class="instructor">Mustafa Murat Coşkun,Yazılım Bilimi</div>
+              <div class="rating">4.6 | (140 Oylama)</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+      <form class="contact-form">
+        <form>
+       <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+         <div class="form-group">
+          <label for="name">İsim</label>
+        <input type="text" class="form-control" name="name" id="name" placeholder="isim"/>
+         </div>
+       
+     
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="textera" class="form-control" id="email" placeholder="E-Mail"/>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Mesaj</label>
+        <textarea
+        name="message"
+        id="message"
+        class="form-control"
+        rows="5"
+        placeholder="Mesajınız..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-block">Gönder</button>
+    </form>
+  <ul>
+    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+</div>
+    </footer>
+  </body>
+</html>
